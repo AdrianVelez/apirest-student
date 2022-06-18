@@ -23,6 +23,8 @@ public class StudentController {
 	public ResponseEntity<List<Student>> getStudentAll(){
 			return new ResponseEntity<List<Student>>(studentService.getStudent(), HttpStatus.OK);
 		
+ //Adrian Velez 
+	
 	}
 	
 }
