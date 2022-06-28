@@ -9,7 +9,7 @@ import com.github.javafaker.Faker;
 @Configuration
 public class FakerBeansConfig {
 
-	@Bean
+	@Bean //Puerta de enlace al metodo Bean
 	public Faker getFaker() {
 	
 		return new Faker();
